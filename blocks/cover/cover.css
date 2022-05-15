@@ -1,0 +1,16 @@
+.cover {
+  margin: 0 auto 0;
+  max-width: 1184px;
+  max-height: 740px;
+  background-image: url("../../sprint-3-images/cover-trains.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover:hover {
+  cursor: pointer;
+}

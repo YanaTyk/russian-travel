@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'),
+  url(/vendor/Inter\ Desktop/);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'),
+  url(/vendor/Inter\ Desktop/);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'),
+  url(/vendor/Inter\ Desktop/);
+  font-weight: 900;
+}

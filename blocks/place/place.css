@@ -1,0 +1,9 @@
+.place {
+  color: #FFFFFF;
+  display: grid;
+  grid-template-columns: 460px calc(100% - 500px);
+  column-gap: 40px;
+  row-gap: 48px;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+}
