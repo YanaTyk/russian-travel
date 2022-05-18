@@ -9,3 +9,25 @@
   flex-wrap: wrap;
   justify-items: center;
 }
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .photo-grid {
+    gap: 14px;
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+  .photo-grid {
+    gap: 16px;
+    max-width: 720px;
+    margin: 0 auto 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .photo-grid {
+    gap: 12px;
+    margin: 0 auto 64px;
+  }
+}

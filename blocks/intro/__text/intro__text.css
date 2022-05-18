@@ -9,3 +9,16 @@
   line-height: 163%;
 /* or 26px */
 }
+
+@media screen and (max-width: 768px) and (min-width: 425px){
+  .intro__text {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__text {
+    margin: 40px auto 34px;
+    width: 288px;
+  }
+}
