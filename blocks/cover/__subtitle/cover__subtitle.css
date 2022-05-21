@@ -2,38 +2,19 @@
   margin: 0;
   width: 360px;
   min-height: 66px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
   text-align: center;
-  color: #FFFFFF;
-  z-index: 2;
-  position: absolute;
-  bottom: 245px;
-  left: auto;
-}
-
-@media screen and (max-width: 1024px) and (min-width: 768px) {
-  .cover__subtitle {
-    bottom: 195px;
-  }
-}
-
-@media screen and (max-width: 768px) and (min-width: 425px) {
-  .cover__subtitle {
-    bottom: 115px;
-  }
+  z-index: 3;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 425px) {
   .cover__subtitle {
     width: 288px;
-    margin: 0 auto 0;
+    min-height: 48px;
+    margin: 0 auto -16px;
     font-size: 14px;
     line-height: 1.14;
-    bottom: 33px;
-    left:auto;
   }
 }
