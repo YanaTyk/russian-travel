@@ -6,11 +6,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
   .header {
-    max-width: 928;
+    max-width: 928px;
     min-height: 52px;
   }
 }
@@ -29,4 +30,3 @@
     padding-top: 16px;
   }
 }
-

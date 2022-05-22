@@ -14,6 +14,12 @@
   }
 }
 
+@media screen and (max-width: 689px) and (min-width: 584px) {
+  .photo-grid__item {
+    max-height: 220px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .photo-grid__item {
     max-height: 216px;
