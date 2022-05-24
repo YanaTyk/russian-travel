@@ -2,13 +2,19 @@
   max-height: 213px;
 }
 
+@media screen and (max-width: 1186px) and (min-width: 1184px) {
+  .photo-grid__item {
+    max-height: 200px;
+  }
+}
+
 @media screen and (max-width: 1024px) and (min-width: 768px) {
   .photo-grid__item {
     max-height: 225px;
   }
 }
 
-@media screen and (max-width: 900px) and (min-width: 880px) {
+@media screen and (max-width: 930px) and (min-width: 880px) {
   .photo-grid__item {
     max-height: 200px;
   }
@@ -20,9 +26,9 @@
   }
 }
 
-@media screen and (max-width: 689px) and (min-width: 584px) {
+@media screen and (max-width: 767px) and (min-width: 584px) {
   .photo-grid__item {
-    max-height: 220px;
+    max-height: 200px;
   }
 }
 
