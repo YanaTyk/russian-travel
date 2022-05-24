@@ -6,7 +6,7 @@
   font-weight: 900;
 }
 
-@media screen and (max-width: 768px) and (min-width: 425px) {
+@media screen and (max-width: 767px) and (min-width: 426px) {
   .lead__title {
     font-size: 3rem;
   }
